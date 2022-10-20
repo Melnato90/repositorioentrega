@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sugerencias</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="Imagenes/logoMetrovias.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./Css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container.barnav">
+        <div class="row">
+          <a href="index.html">
+            <img
+              src="./imagenes/train-solid.svg"
+              height="50"
+              width="50"
+              alt="Ff.Cc Urquiza"
+            />
+          </a>
+
+          <nav>
+            <ul class="navlist">
+              <li><a class="navlink" href="index.html">Inicio</a></li>
+
+              <li><a class="navlink" href="tarifas.html">Tarifas</a></li>
+              <li><a class="navlink" href="recorrido.html">Recorrido</a></li>
+              <li>Sugerencias</li>
+              <li>
+                <a class="navlink" href="galeria.html">Galeria de imagenes</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <br />
+
+    <form class="position__form" action="">
+      <fieldset>
+        <legend class="position__legend">
+          Dejanos tu opinion o sugerencia para seguir creciendo
+        </legend>
+        <div class="center_cuerpo">
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" />
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" />
+          <br />
+          <label for="mensaje">Mensaje</label>
+          <br />
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+        </div>
+        <br />
+        <div class="checkbox">
+          Acepto terminos y condiciones
+          <input type="checkbox" name="aceptar" id="aceptar" />
+
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Limpiar" />
+        </div>
+      </fieldset>
+    </form>
+
+    <footer>
+      <a class="vinculo-c" href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a class="vinculo-c" href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a class="vinculo-c" href="#"><i class="fa-duotone fa-phone"></i></a>
+      <a class="vinculo-c" href="#"><i class="fa-solid fa-envelope"></i></a>
+    </footer>
+  </body>
+</html>
