@@ -43,7 +43,7 @@ body {
 .banner {
   padding: 10%;
   margin: 10%;
-  background-image: url(../imagenes/banner.jpg);
+
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
