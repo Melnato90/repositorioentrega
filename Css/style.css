@@ -11,7 +11,16 @@ body {
 }
 .position__title {
   text-align: center;
-  background-image: url(/imagenes/degradadosuperior.png);
+  background: 
+    /* Gradient in Hex */ linear-gradient(
+    to right,
+    #ffffff 0%,
+    5.463182733950767%,
+    #27beaf 21.782177686691284%,
+    68.28978789627662%,
+    #ffffff 100%
+  );
+
   margin: 1%;
   padding: 0.5%;
 }
@@ -93,17 +102,41 @@ h3 {
 }
 .titulo_tabla {
   text-align: center;
-  background-image: url(/imagenes/degradadosuperior.png);
+  background: 
+  /* Gradient in Hex */ linear-gradient(
+    to right,
+    #ffffff 0%,
+    5.463182733950767%,
+    #27beaf 21.782177686691284%,
+    68.28978789627662%,
+    #ffffff 100%
+  );
 }
 
 .titulo_recorrido {
   text-align: center;
-  background-image: url(/imagenes/degradadosuperior.png);
+  background: 
+  /* Gradient in Hex */ linear-gradient(
+    to right,
+    #ffffff 0%,
+    5.463182733950767%,
+    #27beaf 21.782177686691284%,
+    68.28978789627662%,
+    #ffffff 100%
+  );
 }
 .title__atardeceres {
   text-align: center;
   color: black;
-  background-image: url(/imagenes/degradadosuperior.png);
+  background: 
+  /* Gradient in Hex */ linear-gradient(
+    to right,
+    #ffffff 0%,
+    5.463182733950767%,
+    #27beaf 21.782177686691284%,
+    68.28978789627662%,
+    #ffffff 100%
+  );
 }
 .container {
   width: 100%;
@@ -152,7 +185,14 @@ h3 {
 }
 
 footer {
-  background-image: url(/imagenes/degradadofooter.png);
+  background: /* Gradient in Hex */ linear-gradient(
+    to right,
+    #3f391f 0%,
+    9.259258955717087%,
+    #a4878c 18.518517911434174%,
+    59.25925895571709%,
+    #c2d1ce 100%
+  );
 }
 
 .vinculo-c {
