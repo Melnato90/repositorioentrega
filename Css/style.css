@@ -11,7 +11,7 @@ body {
 }
 .position__title {
   text-align: center;
-  background-image: url(/Imagenes/AdobeColorGradient\ gradient_back_urqui_2020_mobile.png);
+  background-image: url(../imagenes/degradadosuperior.png);
   margin: 1%;
   padding: 0.5%;
 }
@@ -93,17 +93,17 @@ h3 {
 }
 .titulo_tabla {
   text-align: center;
-  background-image: url(/Imagenes/AdobeColorGradient\ gradient_back_urqui_2020_mobile.png);
+  background-image: url(../imagenes/degradadosuperior.png);
 }
 
 .titulo_recorrido {
   text-align: center;
-  background-image: url(/Imagenes/AdobeColorGradient\ gradient_back_urqui_2020_mobile.png);
+  background-image: url(../imagenes/degradadosuperior.png);
 }
 .title__atardeceres {
   text-align: center;
   color: black;
-  background-image: url(/Imagenes/AdobeColorGradient\ gradient_back_urqui_2020_mobile.png);
+  background-image: url(../imagenes/degradadosuperior.png);
 }
 .container {
   width: 100%;
@@ -152,7 +152,7 @@ h3 {
 }
 
 footer {
-  background-image: url(/Imagenes/AdobeColorGradient\ gradient_banner.png);
+  background-image: url(../imagenes/degradadofooter.png);
 }
 
 .vinculo-c {
