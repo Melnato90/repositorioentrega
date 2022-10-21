@@ -40,7 +40,7 @@ body {
   margin: 2%;
 }
 
-section {
+.banner {
   padding: 10%;
   margin: 10%;
   background-image: url(../imagenes/banner.jpg);
