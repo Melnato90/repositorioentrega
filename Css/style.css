@@ -180,8 +180,18 @@ h3 {
 }
 .position_imgmaps {
   margin-top: 2%;
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    " .... imgreco ...."
+    ".... maps ....";
+}
+.imgreco {
+  grid-area: imgreco;
+}
+.maps {
+  grid-area: maps;
 }
 
 footer {
