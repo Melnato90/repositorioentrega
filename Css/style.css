@@ -64,7 +64,7 @@ body {
 }
 
 header {
-  background-image: url(../imagenes/gradientbarnav.png);
+  background-image: url(../imagenes/degradadosuperior.png);
   margin: 2%;
   padding: 2%;
 }
@@ -181,16 +181,4 @@ footer {
 
 .vinculo-c {
   color: #260033;
-}
-
-@media (max-width: 767px) {
-  .navlist {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 480px) {
-  .navlist {
-    flex-direction: column;
-  }
 }
