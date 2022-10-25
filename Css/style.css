@@ -64,7 +64,7 @@ body {
 }
 
 header {
-  background-color: #21bfaf;
+  background-image: url(/imagenes/gradientbarnav.png);
   margin: 2%;
   padding: 2%;
 }
@@ -74,20 +74,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-.navlist {
-  list-style: none;
-  display: flex;
-}
 
-.navlink {
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin: 2rem;
-}
-.navlink:hover {
-  opacity: 0.65;
-}
 .container_tabla {
   padding: 2%;
   margin: 2%;
@@ -208,11 +195,7 @@ footer {
 .vinculo-c {
   color: #260033;
 }
-button {
-  border-radius: 5px;
-  display: flex;
-  justify-content: end;
-}
+
 @media (max-width: 767px) {
   .navlist {
     flex-direction: column;
