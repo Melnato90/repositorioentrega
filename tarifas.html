@@ -92,50 +92,54 @@
       </div>
     </header>
     <h1 class="titulo_tabla">Tarifas</h1>
-    <div class="container_tabla">
-      <table border="5">
-        <h3 class="title_consinsube">Con sube</h3>
-        <th></th>
-        <th>1° Seccion</th>
-        <th>2° Seccion</th>
-        <th>3° Seccion</th>
-
+    <table class="table">
+      <thead>
+        <tr class="table-dark">
+          <th scope="col">Con sube</th>
+          <th scope="col">1° seccion</th>
+          <th scope="col">2° seccion</th>
+          <th scope="col">3° seccion</th>
+        </tr>
+      </thead>
+      <tbody>
         <tr>
-          <td>Boleto ida</td>
-          <td>$11,25</td>
-          <td>$15,50</td>
-          <td>$18,50</td>
+          <th scope="row">Boleto ida</th>
+          <td>$11.25</td>
+          <td>$15.50</td>
+          <td>$18.50</td>
         </tr>
         <tr>
-          <td>Boleto ida/vuelta</td>
-          <td>$22,50</td>
+          <th scope="row">Boleto ida/vuelta</th>
+          <td>$22.50</td>
           <td>$31</td>
           <td>$37</td>
         </tr>
-      </table>
-
-      <table border="5">
-        <h3>Sin sube</h3>
-        <th></th>
-        <th>1° Seccion</th>
-        <th>2° Seccion</th>
-        <th>3° Seccion</th>
-
+      </tbody>
+    </table>
+    <table class="table">
+      <thead>
+        <tr class="table-dark">
+          <th scope="col">En efectivo</th>
+          <th scope="col">1° seccion</th>
+          <th scope="col">2° seccion</th>
+          <th scope="col">3° seccion</th>
+        </tr>
+      </thead>
+      <tbody>
         <tr>
-          <td>Boleto ida</td>
-          <td>$22,50</td>
+          <th scope="row">Boleto ida</th>
+          <td>$22.505</td>
           <td>$31</td>
           <td>$37</td>
         </tr>
         <tr>
-          <td>Boleto ida/vuelta</td>
+          <th scope="row">Boleto ida/vuelta</th>
           <td>$45</td>
-          <td>62</td>
+          <td>$62</td>
           <td>$74</td>
         </tr>
-      </table>
-    </div>
-    <br />
+      </tbody>
+    </table>
     <button type="button" class="btn btn-outline-dark btn-lg rounded-pill">
       Descarga tarifas
     </button>
