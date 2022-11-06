@@ -8,6 +8,9 @@ $gradiante-encabezado: #ffffff 0%, 5.463182733950767%,
 .position__title {
   background: linear-gradient(to right, $gradiante-encabezado);
 }
+header {
+  background: linear-gradient(to right, $gradiante-encabezado);
+}
 $gradiante-footer: #3f391f 0%, 9.259258955717087%, #a4878c 18.518517911434174%,
   59.25925895571709%, #c2d1ce 100%;
 footer {
