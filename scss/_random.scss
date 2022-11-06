@@ -1,0 +1,35 @@
+.position__title {
+  text-align: center;
+  margin: 1%;
+  padding: 0.5%;
+}
+.position__legend {
+  text-align: center;
+}
+.position__form {
+  padding: 2rem;
+}
+.center_cuerpo {
+  flex-wrap: wrap;
+  padding-top: 2%;
+  margin: 2%;
+}
+.checkbox {
+  padding-top: 2%;
+  margin: 2%;
+}
+
+.apa_parrafo {
+  font-style: italic;
+  font-weight: bold;
+  font-size: large;
+}
+
+.vinculo-c {
+  color: #260033;
+}
+button {
+  border-radius: 5px;
+  display: flex;
+  justify-content: end;
+}

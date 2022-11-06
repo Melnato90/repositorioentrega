@@ -1,0 +1,15 @@
+/*Variables*/
+$parrafo-color: #4b6f73;
+.colortext {
+  color: $parrafo-color;
+}
+$gradiante-encabezado: #ffffff 0%, 5.463182733950767%,
+  #27beaf 21.782177686691284%, 68.28978789627662%, #ffffff 100%;
+.position__title {
+  background: linear-gradient(to right, $gradiante-encabezado);
+}
+$gradiante-footer: #3f391f 0%, 9.259258955717087%, #a4878c 18.518517911434174%,
+  59.25925895571709%, #c2d1ce 100%;
+footer {
+  background: linear-gradient(to right, $gradiante-footer);
+}

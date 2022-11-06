@@ -1,0 +1,19 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navlist {
+  list-style: none;
+  display: flex;
+}
+
+.navlink {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 2rem;
+  &:hover {
+    opacity: 0.65;
+  }
+}
