@@ -64,7 +64,7 @@ body {
 }
 
 header {
-  background-color: #21bfaf;
+  background-color: aqua;
   margin: 2%;
   padding: 2%;
 }
@@ -75,6 +75,15 @@ html {
 
 body {
   min-height: 100%;
+}
+
+footer {
+  display: flex;
+  font-size: 1rem;
+  text-align: left;
+  bottom: 0.4rem;
+  padding: 1rem;
+  justify-content: space-between;
 }
 
 @media (max-width: 767px) {
@@ -169,7 +178,7 @@ body {
 }
 
 .vinculo-c {
-  color: #260033;
+  color: black;
 }
 
 button {
